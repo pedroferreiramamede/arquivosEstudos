@@ -32,6 +32,9 @@ void dump(const unsigned char *data_buffer, const unsigned int length) {
 }
 
 
+//sudo ./raw_tcpsniff | grep VAL -A 10 -B 10
+
+
 int main(void)
 {
     int i, recv_length, sockfd;
